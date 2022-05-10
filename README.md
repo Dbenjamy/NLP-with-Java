@@ -1,10 +1,8 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This program's main function is to gather the prevailing sentiment towards a trending topic on Twitter. It uses Python for webscraping, and then Java for the language proccessing.
 
-{Provide a description the software that you wrote to demonstrate the Java language.}
-
-{Describe your purpose for writing this software.}
+I am writing this to gain familiarity with both Java and the concept of Natural Language Proccessing.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
 
