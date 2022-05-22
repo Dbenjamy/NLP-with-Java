@@ -37,7 +37,7 @@ def get_comments(service,comment_dict,max=95,item_num=0,page_token=None):
 # Calling the function
 service = build('youtube','v3',developerKey=API_Key)
 com_dict = dict()
-get_comments(service,com_dict,200)
+get_comments(service,com_dict,100)
 
 # Writing results to json file
 with open('data.json','w') as file:
