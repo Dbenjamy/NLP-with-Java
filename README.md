@@ -9,7 +9,7 @@ Here is a video with a quick overview of what I learned and a quick demonstratio
 [Software Demonstration](https://youtu.be/vZUFXsFb078)
 
 # Development Environment
-I wrote the program using VS Code. The only Java library I imported for my Java code was Json-Simple. Json-Simple is an old library, but I was able to download it from a Google archive. For my Python code, I used Google's API. To use it you will need to generate you own key and put in `KEYS.py`.
+I wrote the program using VS Code. The only Java library I imported for my Java code was Json-Simple. Json-Simple is an old library, but I was able to download it from a Google archive. For my Python code, I used Google's API. To use it you will need to generate you own key and put it in `KEYS.py`.
 
 * [Json-Simple Archive](https://code.google.com/archive/p/json-simple/)
 * [Google' API](https://developers.google.com/docs/api/quickstart/python)
