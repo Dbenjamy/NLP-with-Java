@@ -1,7 +1,7 @@
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
+import java.util.ArrayList;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -16,9 +16,11 @@ public class YoutubeSentiment
     try {
       // Parse json and exctract string array of comments
       JSONObject data = (JSONObject) json_parser.parse(new FileReader("data.json"));
-      String[] comments = Arrays
-        .asList(data.values().toArray())
-        .toArray(new String[0]);
+      
+      ArrayList<String> comments = new ArrayList<String>();
+      for (Object item:data.values()) {
+        comments.add(item.toString());
+      }
       // Compute average comment sentiment (1 bad, 5 great)
       int total = 0;
       int count = 0;
